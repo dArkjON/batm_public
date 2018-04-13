@@ -64,6 +64,8 @@
                 <cryptocurrency>XMR</cryptocurrency>
                 <cryptocurrency>POT</cryptocurrency>
                 <cryptocurrency>BTX</cryptocurrency>
+                <cryptocurrency>BSD</cryptocurrency>
+                <cryptocurrency>BTDX</cryptocurrency>
             </ratesource>
             <paymentprocessor prefix="bitcoinpay" name="BitcoinPay.com" >
                 <param name="apikey" />
