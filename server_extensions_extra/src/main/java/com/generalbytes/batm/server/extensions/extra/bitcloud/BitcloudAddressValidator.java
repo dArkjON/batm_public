@@ -25,7 +25,7 @@ public class BitcloudAddressValidator implements ICryptoAddressValidator {
 
     @Override
     public boolean isAddressValid(String address) {
-        if (address.startsWith("B") {
+        if (address.startsWith("B")) {
             try {
                 Base58.decodeToBigInteger(address);
                 Base58.decodeChecked(address);
