@@ -15,13 +15,13 @@
  * Web      :  http://www.generalbytes.com
  *
  ************************************************************************************/
-package com.generalbytes.batm.server.extensions.extra.bitcore;
+package com.generalbytes.batm.server.extensions.extra.bitsend;
 
 import com.generalbytes.batm.server.coinutil.AddressFormatException;
 import com.generalbytes.batm.server.coinutil.Base58;
 import com.generalbytes.batm.server.extensions.ICryptoAddressValidator;
 
-public class BitcoreAddressValidator implements ICryptoAddressValidator {
+public class BitsendAddressValidator implements ICryptoAddressValidator {
 
     @Override
     public boolean isAddressValid(String address) {

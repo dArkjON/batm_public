@@ -425,7 +425,7 @@
         </ratesource>
         <cryptologo cryptocurrency="BTX" file="btx.png"/>
     </extension>	
-	<extension class="com.generalbytes.batm.server.extensions.extra.bitcloud.BitcoreExtension" >
+	<extension class="com.generalbytes.batm.server.extensions.extra.bitcloud.BitcloudExtension" >
         <wallet prefix="bitcloudd" name="Bitcloud">
             <param name="protocol" />
             <param name="user" />
@@ -441,7 +441,7 @@
         </ratesource>
         <cryptologo cryptocurrency="BTDX" file="btdx.png"/>
     </extension>	
-	<extension class="com.generalbytes.batm.server.extensions.extra.bitsend.BitcoreExtension" >
+	<extension class="com.generalbytes.batm.server.extensions.extra.bitsend.BitsendExtension" >
         <wallet prefix="bitsendd" name="Bitsendd">
             <param name="protocol" />
             <param name="user" />
